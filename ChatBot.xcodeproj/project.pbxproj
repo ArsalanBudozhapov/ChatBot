@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7AE9F9112981AC3A002C02AD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE9F9102981AC3A002C02AD /* TableViewCell.swift */; };
+		7AE9F9132981B4E4002C02AD /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE9F9122981B4E4002C02AD /* TableViewCell2.swift */; };
+		7AE9F9152981B4F2002C02AD /* TableViewCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE9F9142981B4F2002C02AD /* TableViewCell3.swift */; };
 		C0EF2F7229818DA600620905 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EF2F7129818DA600620905 /* AppDelegate.swift */; };
 		C0EF2F7429818DA600620905 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EF2F7329818DA600620905 /* SceneDelegate.swift */; };
 		C0EF2F7629818DA600620905 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EF2F7529818DA600620905 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7AE9F9102981AC3A002C02AD /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		7AE9F9122981B4E4002C02AD /* TableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
+		7AE9F9142981B4F2002C02AD /* TableViewCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell3.swift; sourceTree = "<group>"; };
 		C0EF2F6E29818DA600620905 /* ChatBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0EF2F7129818DA600620905 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0EF2F7329818DA600620905 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,10 +65,13 @@
 				C0EF2F7129818DA600620905 /* AppDelegate.swift */,
 				C0EF2F7329818DA600620905 /* SceneDelegate.swift */,
 				C0EF2F7529818DA600620905 /* ViewController.swift */,
+				7AE9F9102981AC3A002C02AD /* TableViewCell.swift */,
 				C0EF2F7729818DA600620905 /* Main.storyboard */,
 				C0EF2F7A29818DA800620905 /* Assets.xcassets */,
 				C0EF2F7C29818DA800620905 /* LaunchScreen.storyboard */,
 				C0EF2F7F29818DA800620905 /* Info.plist */,
+				7AE9F9122981B4E4002C02AD /* TableViewCell2.swift */,
+				7AE9F9142981B4F2002C02AD /* TableViewCell3.swift */,
 			);
 			path = ChatBot;
 			sourceTree = "<group>";
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AE9F9132981B4E4002C02AD /* TableViewCell2.swift in Sources */,
 				C0EF2F7629818DA600620905 /* ViewController.swift in Sources */,
+				7AE9F9112981AC3A002C02AD /* TableViewCell.swift in Sources */,
 				C0EF2F7229818DA600620905 /* AppDelegate.swift in Sources */,
 				C0EF2F7429818DA600620905 /* SceneDelegate.swift in Sources */,
+				7AE9F9152981B4F2002C02AD /* TableViewCell3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
